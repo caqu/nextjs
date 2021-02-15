@@ -6,6 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "postbuild": "next-on-netlify",
+    "netlify-watch docs": "This will run next build to build your Next.js app and next-on-netlify to prepare your Next.js app for compatibility with Netlify. Any source code changes will trigger another build.",
+    "netlify-watch": "npx next-on-netlify watch",
+    "netlify-dev": "netlify dev",
+    "netlify-dev docs": "This will emulate Netlify on your computer and let you preview your app on http://localhost:8888",
     "start": "next start"
   },
   "dependencies": {
