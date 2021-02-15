@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next build && next export",
     "postbuild": "next-on-netlify",
     "netlify-watch docs": "This will run next build to build your Next.js app and next-on-netlify to prepare your Next.js app for compatibility with Netlify. Any source code changes will trigger another build.",
     "netlify-watch": "npx next-on-netlify watch",
