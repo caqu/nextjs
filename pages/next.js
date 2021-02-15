@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export default function Home() {
+export default function Nixt() {
   return (
     <div className="container">
       <Head>
@@ -10,7 +10,7 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Build a <a href="https://nextjs.org">PWA!</a>
+          Learn <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
         <p className="description">
