@@ -1,7 +1,7 @@
 {
     "name": "Carlos Next.js Demo",
     "short_name": "Carlos Next.js Demo",
-    "start_url": ".",
+    "start_url": "/",
     "display": "standalone",
     "background_color": "#fff",
     "description": "A Next.js PWA demo.",
